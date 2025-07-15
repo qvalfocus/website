@@ -1,0 +1,110 @@
+.services-section {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(-169deg, #2d3c53 60%, #ffffff 40%);
+    padding: 20px 20px 80px;
+    overflow: hidden;
+  }
+  
+  .services-content {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .services-image {
+    /*position: absolute;*/
+    top: 20px;
+    left: 40px;
+    width: 450px;
+    height: auto;
+    z-index: 2;
+    border-radius: 12px;
+    /*box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);*/
+  }
+  
+  .cards-container {
+    display: flex;
+    gap: 2rem;
+    /*justify-content: center;*/
+    flex-wrap: wrap;
+    /*margin-top: 160px;*/
+    z-index: 3;
+    position: relative;
+    padding-left: 80px;
+    padding-top: 90px;
+  }
+  
+  .service-card {
+    position: relative;
+    background-color: #f7f9fc;
+    color: #117dbf;
+    border-radius: 25px;
+    padding: 20px 30px 40px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    flex: 1;
+  }
+
+  .service-card::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px 0 0 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #117dbf;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjZmZmZmZmIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+NTI8L3RpdGxlPjxwYXRoIGQ9Ik04MS4zMDMyOSwzOC41MjkzOUExNC4wMTgsMTQuMDE4LDAsMSwwLDYxLjQ3NywxOC43MDY3MUw0Ny4wMDMxNSwzMy4xNzkxNGExNC4wMzAzNywxNC4wMzAzNywwLDAsMCwwLDE5LjgyMTcxLDQuODAxMTMsNC44MDExMywwLDAsMS02Ljc4OTc5LDYuNzg5ODcsMjMuNjQzMjcsMjMuNjQzMjcsMCwwLDEsMC0zMy40MDE0NUw1NC42ODcyMSwxMS45MTY4NEEyMy42MjAzLDIzLjYyMDMsMCwwLDEsODguMDkzMDgsNDUuMzE5MjdMODAuOTIzOCw1Mi40ODcxMWE0LjgwMTE0LDQuODAxMTQsMCwwLDEtNi43ODk4LTYuNzg5ODdaTTExLjkwNzQxLDg4LjA5MzlhMjMuNjUwNTMsMjMuNjUwNTMsMCwwLDAsMzMuNDA1ODYtLjAwMUw1OS43ODY2NCw3My42MjE0N2EyMy42MTU4MywyMy42MTU4MywwLDAsMCwwLTMzLjQwMTQ1LDQuODAxMTQsNC44MDExNCwwLDAsMC02Ljc4OTc5LDYuNzg5ODgsMTQuMDE1MzEsMTQuMDE1MzEsMCwwLDEsMCwxOS44MjI2OEwzOC41MjM0OCw4MS4zMDRBMTQuMDE4LDE0LjAxOCwwLDEsMSwxOC42OTcyLDYxLjQ4MTM1TDI1Ljg2Niw1NC4zMTM1YTQuODAxMTQsNC44MDExNCwwLDAsMC02Ljc4OTgtNi43ODk4N2wtNy4xNjg3OSw3LjE2Nzg1QTIzLjY0NDg5LDIzLjY0NDg5LDAsMCwwLDExLjkwNzQxLDg4LjA5MzlaIj48L3BhdGg+PC9zdmc+");
+  }
+  
+  .service-card:hover::after {
+    background-color: #f7f9fc;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMmQzYzUzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+NTI8L3RpdGxlPjxwYXRoIGQ9Ik04MS4zMDMyOSwzOC41MjkzOUExNC4wMTgsMTQuMDE4LDAsMSwwLDYxLjQ3NywxOC43MDY3MUw0Ny4wMDMxNSwzMy4xNzkxNGExNC4wMzAzNywxNC4wMzAzNywwLDAsMCwwLDE5LjgyMTcxLDQuODAxMTMsNC44MDExMywwLDAsMS02Ljc4OTc5LDYuNzg5ODcsMjMuNjQzMjcsMjMuNjQzMjcsMCwwLDEsMC0zMy40MDE0NUw1NC42ODcyMSwxMS45MTY4NEEyMy42MjAzLDIzLjYyMDMsMCwwLDEsODguMDkzMDgsNDUuMzE5MjdMODAuOTIzOCw1Mi40ODcxMWE0LjgwMTE0LDQuODAxMTQsMCwwLDEtNi43ODk4LTYuNzg5ODdaTTExLjkwNzQxLDg4LjA5MzlhMjMuNjUwNTMsMjMuNjUwNTMsMCwwLDAsMzMuNDA1ODYtLjAwMUw1OS43ODY2NCw3My42MjE0N2EyMy42MTU4MywyMy42MTU4MywwLDAsMCwwLTMzLjQwMTQ1LDQuODAxMTQsNC44MDExNCwwLDAsMC02Ljc4OTc5LDYuNzg5ODgsMTQuMDE1MzEsMTQuMDE1MzEsMCwwLDEsMCwxOS44MjI2OEwzOC41MjM0OCw4MS4zMDRBMTQuMDE4LDE0LjAxOCwwLDEsMSwxOC42OTcyLDYxLjQ4MTM1TDI1Ljg2Niw1NC4zMTM1YTQuODAxMTQsNC44MDExNCwwLDAsMC02Ljc4OTgtNi43ODk4N2wtNy4xNjg3OSw3LjE2Nzg1QTIzLjY0NDg5LDIzLjY0NDg5LDAsMCwwLDExLjkwNzQxLDg4LjA5MzlaIj48L3BhdGg+PC9zdmc+");  }
+  .service-card:hover {
+    transform: translateY(-5px);
+    background-color: #117dbf;
+    color: #b2b7b9;
+  }
+  
+  .service-card h3 {
+    /*color: #0057d9;*/
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-weight: 900;
+  }
+  
+  .service-card p {
+    /*color: #333;*/
+    font-size: 0.95rem;
+    padding-top: 30px;
+    text-align: left;
+  }
+  .services-row {
+    display: flex;
+  }
+  .services-text {
+    flex: 1;
+    text-align: left;
+    color: #ffffff;
+  }
+  .services-div{
+    flex: 1;
+    text-align: left;
+    padding-top: 20px;
+  }
+  .services-image-div {
+    width: 40%;
+    padding-top: 75px;
+  }
+  
