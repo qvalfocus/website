@@ -8,8 +8,8 @@ import App from './App.jsx'
 // ... rest of your index.js content
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/website">
+    <Router>
       <App />
-    </BrowserRouter>
+    </Router>
   </StrictMode>,
 )
