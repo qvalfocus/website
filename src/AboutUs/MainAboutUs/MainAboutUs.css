@@ -1,7 +1,0 @@
-.GetInTouch {
-  transition: background-color 100ms, color 100ms;
-}
-.GetInTouch :hover {
-  background-color: #88d0ff !important;
-  color: #1f2d5a !important;
-}
