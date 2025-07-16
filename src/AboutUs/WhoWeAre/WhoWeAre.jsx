@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import img from "./assets/Test.jpg";
+import img from "../assets/Test.jpg";
 
 export default function WhoWeAre() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import leader1 from "./assets/leader1.jpg";
-import leader2 from "./assets/leader2.jpg"; 
-import leader3 from "./assets/leader3.jpg";
+import leader1 from "../assets/leader1.jpg";
+import leader2 from "../assets/leader2.jpg"; 
+import leader3 from "../assets/leader3.jpg";
 
 export default function Leadership() {
   const leaders = [

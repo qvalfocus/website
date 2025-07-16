@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import "./WhatWeOffer.css";
-import fem from "./assets/FlexibleEngagementModels.png";
-import ie from "./assets/IndustryExpertise.png";
-import ss from "./assets/ScalableSolutions.png";
-import tfa from "./assets/TalentFirstApproach.png";
-import cqf from "./assets/ComplianceQualityFocus.png";
+import fem from "../assets/FlexibleEngagementModels.png";
+import ie from "../assets/IndustryExpertise.png";
+import ss from "../assets/ScalableSolutions.png";
+import tfa from "../assets/TalentFirstApproach.png";
+import cqf from "../assets/ComplianceQualityFocus.png";
 
 export default function WhatWeOfferSection() {
   const tabs = [

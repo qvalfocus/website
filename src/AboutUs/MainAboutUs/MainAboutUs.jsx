@@ -5,7 +5,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useNavigate } from "react-router-dom";
 import "./MainAboutUs.css";
-import video from "./assets/AboutUsVideo.mp4";
+import video from "../assets/AboutUsVideo.mp4";
 
 
 gsap.registerPlugin(ScrollTrigger);
