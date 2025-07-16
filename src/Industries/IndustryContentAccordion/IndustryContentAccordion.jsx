@@ -7,7 +7,7 @@ const IndustryContentAccordion = ({ leftContent, accordionItems, video }) => {
   const handleToggle = (index) => {
     setOpenIndex(index === openIndex ? null : index);
   };
-  const vid = new URL(video, import.meta.url).href;
+  //const vid = new URL(video, import.meta.url).href;
   return (
     <>
         <section className="content-accordion">
@@ -42,7 +42,7 @@ const IndustryContentAccordion = ({ leftContent, accordionItems, video }) => {
         </div>
         </section>
         <div className="plyr__video-wrapper">
-            <video id="player" src={vid} autoPlay muted loop preload="metadata" style={{width: "100%", maxWidth: "100%"}}></video>        
+            <video id="player" src={video} autoPlay muted loop preload="metadata" style={{width: "100%", maxWidth: "100%"}}></video>        
         </div>
     </>
   );
