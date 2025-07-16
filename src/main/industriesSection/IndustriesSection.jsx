@@ -1,6 +1,7 @@
 import React from 'react';
 import './IndustriesSection.css';
 import { useNavigate } from "react-router-dom";
+import video from './assets/industryVideo.mp4';
 
 function IndustriesSection() {
   const navigate = useNavigate();
@@ -17,7 +18,7 @@ function IndustriesSection() {
         <div className="videoSection">
           <video
             className="video"
-            src="src\main\industriesSection\assets\industryVideo.mp4"
+            src={video}
             autoPlay
             muted
             loop

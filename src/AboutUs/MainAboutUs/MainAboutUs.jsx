@@ -5,6 +5,8 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useNavigate } from "react-router-dom";
 import "./MainAboutUs.css";
+import video from "./assets/AboutUsVideo.mp4";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -41,7 +43,7 @@ export default function MainAboutUs() {
           muted
           playsInline
         >
-          <source src="src\AboutUs\assets\AboutUsVideo.mp4" type="video/mp4" />
+          <source src = {video} type="video/mp4" />
         </video>
 
         {/* Text overlays video & scrolls normally */}

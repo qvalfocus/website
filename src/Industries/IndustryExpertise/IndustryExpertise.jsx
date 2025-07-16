@@ -9,7 +9,7 @@ const IndustryExpertise = ({ title, subtitle, sections }) => {
       <div className="custom-grid-container">
         {sections.map((section) => (
           <div key={section.id} className={`grid-item item-${section.id}`}>
-            <img src={section.image} alt={section.title} />
+            <img src={new URL(section.image, import.meta.url).href} alt={section.title} />
             <div className="content-wrapper">
               <div className="content-title">{section.title}</div>
               <div className="content-description">{section.description}</div>

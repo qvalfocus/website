@@ -2,10 +2,11 @@ import React from "react";
 import "./IndustryChooseUS.css";
 
 const IndustryChooseUS = ({ imageUrl, heading, subHeading, description }) => {
+  const img = new URL(imageUrl, import.meta.url).href;
   return (
     <section className="industry-chooseus-section">
       <div className="industry-left">
-        <img src={imageUrl} alt={heading} className="industry-image" />
+        <img src={img} alt={heading} className="industry-image" />
       </div>
       <div className="industry-right">
         <h2 className="industry-heading">{heading}</h2>

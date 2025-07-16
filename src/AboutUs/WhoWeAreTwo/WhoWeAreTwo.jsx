@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import img from "./assets/Test.jpg";
 
 export default function WhoWeAreTwo() {
   return (
@@ -25,7 +26,7 @@ export default function WhoWeAreTwo() {
           <div className="basis-1/2 flex justify-center h-full">
             <div className="w-full h-full flex justify-center items-center">
               <img
-                src="src/AboutUs/assets/vision.jpg"
+                src={img}
                 alt="Team working"
                 className="h-full w-auto rounded-full object-cover shadow-2xl"
                 style={{height: "690px"}}

@@ -1,37 +1,37 @@
 import { useState, useEffect, useRef } from "react";
 import "./WhatWeOffer.css";
+import fem from "./assets/FlexibleEngagementModels.png";
+import ie from "./assets/IndustryExpertise.png";
+import ss from "./assets/ScalableSolutions.png";
+import tfa from "./assets/TalentFirstApproach.png";
+import cqf from "./assets/ComplianceQualityFocus.png";
 
 export default function WhatWeOfferSection() {
   const tabs = [
     {
       title: "Flexible Engagement Models",
-      image: "src/AboutUs/assets/FlexibleEngagementModels.jpg",
-      content:
-        "Contract, contract-to-hire, direct hire, executive search, FSP teams, and project-based outsourcing tailored to your needs.",
+      image: fem,
+      content: "Contract, contract-to-hire, direct hire, executive search, FSP teams, and project-based outsourcing tailored to your needs.",
     },
     {
       title: "Industry Expertise",
-      image: "src/AboutUs/assets/IndustryExpertise.png",
-      content:
-        "Deep experience delivering high standards in Life Sciences, Pharma, Biotech, and IT.",
+      image: ie,
+      content: "Deep experience delivering high standards in Life Sciences, Pharma, Biotech, and IT.",
     },
     {
       title: "Scalable Solutions",
-      image: "src/AboutUs/assets/ScalableSolutions.png",
-      content:
-        "From individual consultants to fully managed teams, we offer scalable talent and project solutions.",
+      image: ss,
+      content: "From individual consultants to fully managed teams, we offer scalable talent and project solutions.",
     },
     {
       title: "Talent-First Approach",
-      image: "src/AboutUs/assets/TalentFirstApproach.png",
-      content:
-        "Our rigorous screening and cultural alignment process ensures you get the right fit every time.",
+      image: tfa,
+      content: "Our rigorous screening and cultural alignment process ensures you get the right fit every time.",
     },
     {
       title: "Compliance & Quality Focus",
-      image: "src/AboutUs/assets/ComplianceQualityFocus.png",
-      content:
-        "Strong emphasis on regulatory compliance and quality assurance, especially in validated environments.",
+      image: cqf,
+      content: "Strong emphasis on regulatory compliance and quality assurance, especially in validated environments.",
     },
   ];
 
