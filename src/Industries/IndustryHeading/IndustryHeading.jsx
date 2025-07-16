@@ -5,7 +5,7 @@ import lsimg from "../assets/LifeScienceBaneer.png";
 
 
 const IndustryHeading = ({ title, subtitle, imageUrl }) => {
-  const img = itimg;
+  var img = itimg;
   if (imageUrl == "src/Industries/assets/LifeScienceBaneer.png") {
     img = lsimg;
   }
