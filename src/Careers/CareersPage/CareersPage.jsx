@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const jobs = [
   {
@@ -33,6 +34,7 @@ const jobs = [
 const departments = ["All", "Engineering", "Quality", "Operations"];
 
 export default function CareersPage() {
+  const navigate = useNavigate();
   const [activeDept, setActiveDept] = useState("All");
   const [selectedJob, setSelectedJob] = useState(null);
 
@@ -191,7 +193,7 @@ export default function CareersPage() {
             empowers you.
           </p>
           <a
-            href="#"
+            onClick={() => navigate("/about-us")}
             className="inline-block px-8 py-3 bg-white text-[#0c2d3c] rounded-full font-semibold hover:bg-gray-200 transition"
           >
             Learn More
