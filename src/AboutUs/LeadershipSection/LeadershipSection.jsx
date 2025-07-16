@@ -8,21 +8,21 @@ export default function Leadership() {
     {
       name: "Vasantha Madasu",
       title: "Chief Executive Officer",
-      image: {leader1},
+      image: leader1,
       bio: "With over 30 years of versatile experience, Vasantha brings a wealth of strategic leadership and industry knowledge to QvalFocus. Her vision and commitment to excellence continue to drive the company’s innovation and growth.",
       linkedin: "https://www.linkedin.com/in/vasanthamadasu/"
     },
     {
       name: "Anil Nalluri",
       title: "Director of Quality & Client Success",
-      image: {leader2},
+      image: leader2,
       bio: "Anil leads our client engagement and quality initiatives with a deep focus on customer satisfaction, operational excellence, and long-term partnerships. His extensive background in validation and client delivery makes him a vital part of our success.",
       linkedin: "https://www.linkedin.com/in/anil-nalluri-567693135"
     },
     {
       name: "Brahmayya Pusuluri",
       title: "Director of IT & Technology",
-      image: {leader3},
+      image: leader3,
       bio: "Brahma brings strong technical acumen and leadership in IT strategy, infrastructure, and development. He ensures that our technology-driven solutions align with evolving client needs and industry trends.",
       linkedin: "https://www.linkedin.com/in/brahmapusuluri/"
     },

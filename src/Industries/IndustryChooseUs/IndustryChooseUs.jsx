@@ -1,8 +1,8 @@
 import React from "react";
 import "./IndustryChooseUS.css";
+import img from "../assets/LS-WhyChooseUS.png"
 
 const IndustryChooseUS = ({ imageUrl, heading, subHeading, description }) => {
-  const img = new URL(imageUrl, import.meta.url).href;
   return (
     <section className="industry-chooseus-section">
       <div className="industry-left">
