@@ -8,12 +8,12 @@ import ls4 from "../assets/Analytical-Laboratory-Instrumentation.png";
 import ls5 from "../assets/Clinical-Research-Organizations.png";  
 import ls6 from "../assets/Microbiology-Testing.jpg";
 
-import it1 from "src/Industries/assets/SoftwareDevelopment.jpg";
-import it2 from "src/Industries/assets/QualityEngineering.jpg";
-import it3 from "src/Industries/assets/CloudAndDevOps.jpg";       
-import it4 from "src/Industries/assets/DataAnalytics.jpg";
-import it5 from "src/Industries/assets/CyberSecurity.jpg";
-import it6 from "src/Industries/assets/Infrastructure.jpg";
+import it1 from "../assets/SoftwareDevelopment.jpg";
+import it2 from "../assets/QualityEngineering.jpg";
+import it3 from "../assets/CloudAndDevOps.jpg";       
+import it4 from "../assets/DataAnalytics.jpg";
+import it5 from "../assets/CyberSecurity.jpg";
+import it6 from "../assets/Infrastructure.jpg";
 
 
 
