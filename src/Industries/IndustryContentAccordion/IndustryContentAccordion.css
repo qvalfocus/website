@@ -1,0 +1,87 @@
+.content-accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .left-panel {
+    flex: 1;
+  }
+  
+  .left-title {
+    font-size: 2.5rem;
+    color: #1E3B93; /* Purple headline */
+    margin-bottom: 10px;
+  }
+  
+  .left-subtitle {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .left-description {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 500px;
+    line-height: 1.6;
+  }
+  
+  .right-panel {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .accordion-item {
+    margin-bottom: 20px;
+  }
+  
+  .accordion-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .accordion-header.active h4 {
+    color: #0f1e4c;
+  }
+  
+  .plus-button {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #1E3B93;
+    color: #1E3B93;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  
+  .accordion-header h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .accordion-content {
+    margin-left: 43px;
+    margin-top: 10px;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .divider-line {
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 15px;
+  }
+  

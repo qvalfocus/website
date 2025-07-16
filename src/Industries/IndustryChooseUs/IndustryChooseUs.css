@@ -1,0 +1,62 @@
+.industry-chooseus-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .industry-left {
+    flex: 1;
+  }
+  
+  .industry-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .industry-right {
+    flex: 1;
+  }
+  
+  .industry-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 12px;
+  }
+  
+  .industry-subheading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #7b1fa2; /* Purple */
+    margin-bottom: 24px;
+  }
+  
+  .industry-description {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    max-width: 500px;
+  }
+  
+  .industry-button {
+    background-color: #7b1fa2;
+    color: #fff;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  .industry-button:hover {
+    background-color: #6a1b9a;
+  }
+  
